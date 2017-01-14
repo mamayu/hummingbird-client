@@ -98,8 +98,7 @@ export default {
         nav: {
           summary: 'Summary',
           episodes: 'Episodes',
-          installments: 'Franchise',
-          cast: 'Cast',
+          characters: 'Characters',
           reviews: 'Reviews',
           quotes: 'Quotes'
         },
@@ -114,10 +113,15 @@ export default {
               other: '{{count}} chapters'
             },
             length: {
-              one: '({{length}} minutes)',
-              other: '({{total}} / {{length}} minutes each)'
+              one: '{{length}} minutes',
+              other: '{{total}} total ({{length}} minutes each)'
             }
           }
+        },
+        titles: {
+          en: 'English',
+          en_jp: 'Romanized',
+          ja_jp: 'Japanese'
         },
         episodes: {
           episode: 'Episode'
